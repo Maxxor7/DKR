@@ -1,0 +1,162 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 60%;
+}
+
+aside {
+  float: left;
+  width: 20%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #000FFF;
+  border-bottom: 5px solid #000FFF;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+h1 {
+	text-align:center;
+}
+
+@font-face {
+    font-family: 'afta_serifregular';
+    src: url('webfontkit-20180307-114215/aftaserifthin-regular-webfont.woff2') format('woff2'),
+         url('webfontkit-20180307-114215/aftaserifthin-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nobileregular';
+    src: url('webfontkit-20180307-114127/nobile-regular-webfont.woff2') format('woff2'),
+         url('webfontkit-20180307-114127/nobile-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1,h2{
+
+font-family:'nobileregular', sans serif;
+
+}
+
+
+
+header{
+    float: left;
+    margin:0 0 30px 0;
+    padding: 5px 0 0 0 ;
+    width: 100%;
+  background-image:url('cwPuEz.jpg');
+  color:white;
+  }
+
+
+  
+  
+  
+
+a {
+	color:blue;
+}
+
+a:active{
+	color:green;
+}
+
+a:visited{
+	color:blue;
+}
+
+a:hover{
+	color:hotpink;
+}
+
+
+
+
+
+
+
+p  {
+	font-family: "Times New Roman", Times, serif:
+	
+}
+
+p{
+	line-height:1.6;
+	
+}
+
+
+nav li
+{
+	border-top: 1px solid #000FFF;
+	border-bottom: 1px solid #000FFF;
+	border-right: 1px solid #000FFF;
+	border-left: 1px solid #000FFF ;
+	height: 40px;
+	width: 170px;
+	border-color: #000FFF;
+	padding-top: 11px;
+	text-align: center;
+margin: 10px 0;
+}
+
+nav ul {
+	list-style-type: none;
+}
+	
+/* Table */
+
+
+table{
+	border-collapse: collapse;
+	text-align: center;
+}
+table tr:nth-child(odd) td{
+	background-color: #9CA1E6;
+}
+#table2 tr:nth-child(odd) td{
+	background-color: #F2E76B;
+}
+
+table th{
+text-align:center;
+background-color:#0B0F4D;
+color:white;
+padding: 4px 30px 4px 8px;
+border: 2px;
+}
